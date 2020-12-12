@@ -1,0 +1,141 @@
+:root{
+    --primary-color:#374151;
+    -blue: #3730A3;
+    --dark-grey: #374151;
+    --yellow: #FCD34D;
+    --light-grey:#6B7280;
+}
+
+.container-fluid{
+    padding: 1rem 1rem;
+ 
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+#input-text{
+    border: 0.5px solid var(--primary-color);
+    height: 10em;
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding:1rem;
+    box-sizing: border-box;
+
+}
+#output{
+    border: 0.5px solid var(--primary-color);
+    width: 50%;
+    height:7em;
+    margin: auto;
+    display: block;
+    padding:1rem;
+    box-sizing: border-box;
+    color: var(--light-grey);
+}
+
+#btn-translator {
+    background-color: var(--yellow);
+    margin: auto;
+    padding: 1rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    display: block;
+}
+
+
+.navigation{
+    background-color: var(--yellow);
+    color:black;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+    font-family: 'Kalam', cursive;
+
+}
+
+.navigation-id{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 3rem;
+    border-bottom-left-radius: 3rem;
+    font-weight: 800;
+    font-size: 110%;
+}
+
+.navigation.nav-pills{
+    padding: 0.8rem 0.8rem;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navigation .link-developer{
+    font-weight: 800;
+    
+}
+
+.navigation .link{
+    color: white;
+}
+
+
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+ /** .form-control{
+      display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} **/
+
+
+.section{
+    padding:1rem 1rem 4rem;  
+    text-align: center;
+}
+
+.on{
+    padding: o.5rem 1rem;
+    font-size: 110%;
+    margin-bottom: 1rem;
+    
+}
+
+.ol{
+    text-align: justify;
+    font-family: 'Kalam', cursive;
+}
+
+.footer {
+    background-color:var(--yellow);
+    padding: 1rem ;
+    border-top-right-radius: 2rem;
+    color: black;
+    text-align: center;
+  }
+  .footer .item{
+      padding-inline-start: 0px;
+  }
+  .non-bullet{
+    list-style: none;
+}
+
+.om{
+    font-family: 'Kalam', cursive;
+}
